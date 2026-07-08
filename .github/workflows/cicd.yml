@@ -18,4 +18,4 @@ jobs:
                 password: ${{ secrets.DOCKER_PASS }}
             - name: Push image
               run:
-                docker push kadade-26/cicd-
+                docker push kadade-26/cicd-portfolio
